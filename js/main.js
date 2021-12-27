@@ -12,11 +12,11 @@ elForm.addEventListener('submit', function(evt) {
     if (inputValue === 0) {
         elResult.textContent = `${inputValue}`;
     }  else if (inputValue % 3 === 0 && inputValue % 5 === 0)  {
-        elResult.textContent = "FizzBazz";
+        elResult.textContent = "FizzBuzz";
     } else if (inputValue % 3 === 0) {
         elResult.textContent = "Fizz";
     } else if (inputValue % 5 === 0) {
-        elResult.textContent = "Bazz";
+        elResult.textContent = "Buzz";
     } else {
         elResult.textContent = `${inputValue}`;
     }
