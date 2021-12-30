@@ -1,6 +1,7 @@
 .form__result {
+    display: inline-block;
     height: 40px;
-    max-width: 80px;
+    min-width: 80px;
     padding: 5px 12px;
     color: green;
     border: 1px solid green;
